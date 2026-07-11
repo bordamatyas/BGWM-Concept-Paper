@@ -10,11 +10,12 @@ The dominant paradigm of current Vision-Language-Action (VLA) robotic systems re
 
 <img width="1537" height="1023" alt="fig1" src="https://github.com/user-attachments/assets/76b9c4ae-ab93-462e-adf5-2f554ec29f80" />
 
-Figure 1: Overview of the Input Stream and Allocentric Transformation. The system processes visual, semantic, and kinesthetic data (Egocentric Inputs), fusing them through the Grid-Cell Binder to create structured Allocentric Entity Aggregates.
+*Figure 1: Overview of the Input Stream and Allocentric Transformation. The system processes visual, semantic, and kinesthetic data (Egocentric Inputs), fusing them through the Grid-Cell Binder to create structured Allocentric Entity Aggregates.*
 
 <img width="1844" height="853" alt="fig2" src="https://github.com/user-attachments/assets/d54f3cde-b3e5-4f4f-b9ce-2d705cfb4b1b" />
 
-Figure 2: Architecture of the Cognitive Cascade World Model. The bottom-up hierarchical structure utilizes flexible bottlenecks and skip-connections to process spatiotemporal data, ultimately feeding into the dedicated Action and Language heads.
+*Figure 2: Architecture of the Cognitive Cascade World Model. The bottom-up hierarchical structure utilizes flexible bottlenecks and skip-connections to process spatiotemporal data, ultimately feeding into the dedicated Action and Language heads.*
+
 
 PyTorch Pseudocode (Grid-Cell Binder): The “Place Cell” block that projects objects onto the global spatial grid based on odometry using Cross-Attention.
 import torch

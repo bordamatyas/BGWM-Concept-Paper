@@ -5,7 +5,7 @@ Matyas Borda
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.21311833.svg)](https://doi.org/10.5281/zenodo.21311833)
 
-Abstract 
+Abstract: 
 The dominant paradigm of current Vision-Language-Action (VLA) robotic systems relies on monolithic, language-based architectures. This approach faces fundamental limitations: human language is a lossily compressed representation that flattens the spatiotemporal dimensions of physical world states, while the egocentric camera view might make planning unstable. In this work, we introduce a biologically inspired, modular world model architecture (BGWM - Biologized Grid-Space World Model) that aims to solve the problems of catastrophic forgetting and spatial hallucinations. Our system is built on three main pillars: (1) the structured decomposition of instructions and vision into Entity Aggregates, (2) an Allocentric Grid-Cell mechanism that creates a topological cognitive map independent of the robot’s movement, and (3) a Cognitive Cascade World Model, a bottom-up architecture operating with skip-connections and flexible bottlenecks. The system is trained based on a strictly staged curriculum following biological ontogeny, explicitly separating motor trajectory generation from linguistic reflection.
 
 <img width="1537" height="1023" alt="fig1" src="https://github.com/user-attachments/assets/76b9c4ae-ab93-462e-adf5-2f554ec29f80" />

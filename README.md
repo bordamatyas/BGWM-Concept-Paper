@@ -1,5 +1,5 @@
-Biologized Grid-space World Model (BGWM): Bottom-Up Cognitive Cascade and Allocentric Spatial Representation in Robotic Control 
-Concept Draft
+**Biologized Grid-space World Model (BGWM): Bottom-Up Cognitive Cascade and Allocentric Spatial Representation in Robotic Control 
+Concept Draft**
 
 Matyas Borda
 
@@ -45,5 +45,4 @@ class GridCellBinder(nn.Module):
         )
         return allocentric_world_state.transpose(0, 1)
 
-
-Read the full concept paper on Zenodo: //zenodo.org/records/21311833
+Read the full concept paper on Zenodo:  [https://zenodo.org/records/21311833](//zenodo.org/records/21311833)

@@ -47,3 +47,5 @@ class GridCellBinder(nn.Module):
         return allocentric_world_state.transpose(0, 1)
 
 Read the full concept paper on Zenodo:  [https://zenodo.org/records/21311833](//zenodo.org/records/21311833)
+
+YouTube link: https://youtu.be/F-IQiS-NhYY?is=LOVHj-lX8FdHR0C2
